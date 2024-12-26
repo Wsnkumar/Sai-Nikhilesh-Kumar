@@ -1,0 +1,71 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font settings */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+header h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Personal details section */
+.personal-details {
+    margin-top: 30px;
+}
+
+.personal-details h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.personal-details ul {
+    list-style-type: none;
+}
+
+.personal-details ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.personal-details ul li strong {
+    color: #4CAF50;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #777;
+}
